@@ -26,4 +26,7 @@ console.log("Hello from dev-sayn");
     git push --set-upstream origin feature-branch 
     git push -u origin feature-branch
     both do same task.
+    git stash : if a change needs to be temporarily stored then this command is used. 
+                This command stores the change and remove from the main branch
+    git stash apply <stash-name> : This command adds the stored changes within the branch
 */
