@@ -16,3 +16,11 @@ console.log("Helllo , Git!");
     Git push -u origin master -> pushes the changes from local to remote repository
     Git pull origin master -> pulls the changes from remote to local repository
 */
+
+/* A upStream branch is a remote branch that your local branch tracks, 
+   essentially we are linking a local branch to a remote repository
+   you push a local feature-branch to a origin remote branch.
+    git push --set-upstream origin feature-branch 
+    git push -u origin feature-branch
+    both do same task.
+*/
